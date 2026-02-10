@@ -11,8 +11,8 @@
             },
             "pathMappings": [
                 {
-                    "localPath": "${workspaceFolder}",
-                    "remotePath": "/mnt/samsung_ssd/development/debugpy_demo"
+                    "localRoot": "${workspaceFolder}",
+                    "remoteRoot": "/mnt/samsung_ssd/development/debugpy_demo"
                 }
             ],
             "justMyCode": true
