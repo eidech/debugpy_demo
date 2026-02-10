@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Remote Attach",
+            "type": "debugpy",
+            "request": "attach",
+            "connect": {
+                "host": "YOUR_SERVER_IP",
+                "port": 5678
+            },
+            "pathMappings": [
+                {
+                    "localPath": "${workspaceFolder}",
+                    "remotePath": "/mnt/samsung_ssd/development/debugpy_demo"
+                }
+            ],
+            "justMyCode": true
+        }
+    ]
+}
